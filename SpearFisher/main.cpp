@@ -1,13 +1,27 @@
 #include <SFML/Graphics.hpp>
 #include "ParticleSystem.h"
 
+
+
+
+/*********************************************
+
+
+TEST POST PLEASE IGNORE
+
+
+*********************************************/
+
+
+
+
 int main()
 {
 	// create the window
 	sf::RenderWindow window(sf::VideoMode(1000, 700), "Particles");
 
 	// create the particle system
-	ParticleSystem particles(0000);
+	ParticleSystem particles(10000);
 
 	// create a clock to track the elapsed time
 	sf::Clock clock;
